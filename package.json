@@ -1,6 +1,6 @@
 {
   "name": "@derpyvision/react-speech-synth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Hook & Components Suite for integrating the SpeechSynthesis interface of the Web Speech API.",
   "repository": "https://github.com/dblodorn/react-speech-synth",
   "main": "dist/index.js",
