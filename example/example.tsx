@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom'
 import React from 'react'
-import { TestExample } from './TestExample'
+import { SpeechSynth } from '../src'
 
-ReactDOM.render(<TestExample />, document.getElementById('main'))
+ReactDOM.render(<SpeechSynth text={'Text to read'} />, document.getElementById('main'))

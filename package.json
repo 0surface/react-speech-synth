@@ -1,7 +1,8 @@
 {
-  "name": "@public-assembly/npm-package-boilerplate",
+  "name": "@derpyvision/add-react-speech-synth",
   "version": "0.0.1",
-  "description": "build a react package now",
+  "description": "React Hook & Components Suite for integrating the SpeechSynthesis interface of the Web Speech API.",
+  "repository": "https://github.com/dblodorn/react-speech-synth",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "source": "src/index.ts",
@@ -17,7 +18,7 @@
     "example": "npx parcel example/index.html",
     "publish": "yarn clean && yarn run prettier && yarn run tsc && npm publish --access public"
   },
-  "author": "Public Assembly",
+  "author": "Dain Blodorn",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.15",
@@ -49,7 +50,8 @@
       "yarn prettier --write ."
     ]
   },
-  "dependencies": {
-    "react": "^18.2.0"
-  }
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "dependencies": {}
 }
