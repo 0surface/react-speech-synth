@@ -21,7 +21,7 @@ module.exports = {
 ```
 
 ### TODO:
-[ ] Add Voice Selection
++ Add Voice Selection
 
 run example:
 `sh example/run.sh`
