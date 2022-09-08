@@ -17,6 +17,8 @@ module.exports = {
 ### Usage in your app:
 
 ```
+import { SpeechSynth } from '@derpyvision/react-speech-synth'
+
 <SpeechSynth text={'Text to read'} />
 ```
 
